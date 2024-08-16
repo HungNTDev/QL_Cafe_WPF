@@ -11,5 +11,12 @@ namespace GUI_QLCaFe
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            haongxaml hong = new haongxaml();
+            this.Close();   
+            hong.ShowDialog();
+        }
     }
 }
