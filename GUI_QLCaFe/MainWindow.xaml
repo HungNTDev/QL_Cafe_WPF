@@ -21,6 +21,7 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="526,279,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
         <Button Content="Nuttttttttt" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
         <Button Content="Nuttttttttt" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="359,77,0,0" TextWrapping="Wrap" Text="FUCK" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>
