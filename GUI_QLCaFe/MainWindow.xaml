@@ -35,6 +35,17 @@
             </DataGrid.RenderTransform>
         </DataGrid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="553,407,0,0" VerticalAlignment="Top" Width="88"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="59,268,373,32" RenderTransformOrigin="0.5,0.5">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.677"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-1.536"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="428,407,0,0" VerticalAlignment="Top" Width="88"/>
 
     </Grid>
 </Window>
