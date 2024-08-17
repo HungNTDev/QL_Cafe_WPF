@@ -21,9 +21,19 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="526,279,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
         <Button Content="Nuttttttttt" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
         <Button Content="Nuttttttttt" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
-        <Viewbox>
+        <Viewbox Margin="693,0,0,0">
             <Label Content="JS"/>
         </Viewbox>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="301,52,131,248" RenderTransformOrigin="0.5,0.5">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.677"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-1.536"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
 
     </Grid>
 </Window>
