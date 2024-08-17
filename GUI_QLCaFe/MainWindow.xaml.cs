@@ -18,5 +18,10 @@ namespace GUI_QLCaFe
             this.Close();
             hong.ShowDialog();
         }
+
+        private void TextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
     }
 }
