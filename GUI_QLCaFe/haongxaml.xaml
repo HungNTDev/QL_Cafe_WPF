@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="haongxaml" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Left" Margin="52,75,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="341,142,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="147" Margin="184,234,0,0" VerticalAlignment="Top" Width="177" Source="/baohoang.png"/>
+
     </Grid>
 </Window>
