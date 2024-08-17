@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Toi Yeu JS" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"/>
+        <Label Content="Toi rat rat yeu javascript" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"/>
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="59,268,373,32" RenderTransformOrigin="0.5,0.5">
             <DataGrid.RenderTransform>
                 <TransformGroup>
