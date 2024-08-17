@@ -21,6 +21,9 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="526,279,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
         <Button Content="Nuttttttttt" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
         <Button Content="Nuttttttttt" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Height="89" Width="175" Click="Button_Click"/>
+        <Viewbox>
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="120"/>
+        </Viewbox>
 
     </Grid>
 </Window>

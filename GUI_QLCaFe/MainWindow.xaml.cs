@@ -15,7 +15,7 @@ namespace GUI_QLCaFe
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             haongxaml hong = new haongxaml();
-            this.Close();   
+            this.Close();
             hong.ShowDialog();
         }
     }
